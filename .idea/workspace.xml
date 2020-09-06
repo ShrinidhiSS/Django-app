@@ -10,18 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8138cc3c-406d-4611-bc42-62d3bdd3d2d8" name="Default Changelist" comment="User profile creation with signals">
+    <list default="true" id="8138cc3c-406d-4611-bc42-62d3bdd3d2d8" name="Default Changelist" comment="Update user profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -147,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599297247567</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update user profile">
+      <created>1599382192663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599382192663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +201,8 @@
     <MESSAGE value="User registration" />
     <MESSAGE value="Adding Email field by inheriting UserCreationForm and using Crispy Forms" />
     <MESSAGE value="User profile creation with signals" />
-    <option name="LAST_COMMIT_MESSAGE" value="User profile creation with signals" />
+    <MESSAGE value="Update user profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update user profile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597899955534">
@@ -224,10 +225,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="985" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597902989176" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599297307875">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599382203171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599297307875" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599382203171" />
     <state x="821" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598163728340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
