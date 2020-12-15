@@ -10,13 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8138cc3c-406d-4611-bc42-62d3bdd3d2d8" name="Default Changelist" comment="List and DetailView">
+    <list default="true" id="8138cc3c-406d-4611-bc42-62d3bdd3d2d8" name="Default Changelist" comment="Create,Update,Delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/profile_pics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -156,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599404935729</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create,Update,Delete">
+      <created>1599528233758</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599528233758</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,46 +224,29 @@
     <MESSAGE value="User profile creation with signals" />
     <MESSAGE value="Update user profile" />
     <MESSAGE value="List and DetailView" />
-    <option name="LAST_COMMIT_MESSAGE" value="List and DetailView" />
+    <MESSAGE value="Create,Update,Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create,Update,Delete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597899955534">
+    <state x="755" y="0" width="781" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599714557333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597899955534" />
-    <state x="910" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597888286053">
+    <state x="755" y="0" width="781" height="824" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599714557333" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607860255958">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="910" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597888286053" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1607860255958" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1599297284821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="294" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1599297284821" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599285399167">
+    <state x="353" y="156" key="FileChooserDialogImpl" timestamp="1607860603734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599285399167" />
-    <state x="985" y="115" key="RollbackChangesDialog" timestamp="1597902989176">
+    <state x="353" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607860603734" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599528246596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="985" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597902989176" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599404951029">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599404951029" />
-    <state x="821" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598163728340">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="821" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598163728340" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/blog/urls.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599528246596" />
   </component>
 </project>
