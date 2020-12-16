@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404
+from django.urls import reverse
+from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 from django.views.generic import (
@@ -10,6 +12,11 @@ from django.views.generic import (
 )
 from .models import Post
 
+
+def LikeView(request, pk):
+    post = get_object_or_404(Post, id = request.POST.get('post_id'))
+    post.likes.add(request.user)
+    return HttpResponseRedirect(reverse('post-detail',args=[str(pk)]))
 
 def home(request):
     context = {
@@ -38,6 +45,13 @@ class UserPostListView(ListView):
 
 class PostDetailView(DetailView):
     model = Post
+
+    def get_context_data(self,*args,**kwargs):
+        context = super().get_context_data(**kwargs)
+        stuff = get_object_or_404(Post, id=self.kwargs['pk'])
+        total_likes = stuff.total_likes()
+        context['total_likes'] = total_likes
+        return context
 
 class PostCreateView(LoginRequiredMixin,CreateView):
     model = Post

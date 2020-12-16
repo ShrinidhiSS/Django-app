@@ -16,5 +16,9 @@
       <h2 class="article-title">{{ object.title }}</h2>
       <p class="article-content">{{ object.content }}</p>
     </div>
+    <form action="{% url 'like-post' object.id %}" method="POST">
+      {% csrf_token %}
+      <button class="btn btn-primary btn-sm" type="submit" name="post_id" value="{{ object.id }}">Like</button> - {{ total_likes }} Likes
+    </form>
   </article>
 {% endblock content %}
